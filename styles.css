@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.firstBox h2 {
+    margin-bottom: 10px;
+}
+
+.insideBox {
+    background-color: gray;
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cpfInput {
+    border-radius: 5px;
+    box-shadow: none;
+}
+
+.searchButton {
+    width: 60%;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+
+.result {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
